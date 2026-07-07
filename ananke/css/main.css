@@ -36,28 +36,6 @@ code,
 kbd,
 samp {
   font-family: monospace, monospace;
-/* 블로그 전체 배경을 밝은 베이지/갈색 톤으로 변경 */
-body {
-    background-color: #FDFBF7 !important; /* 부드러운 크림 베이지 */
-    color: #4A3525 !important;            /* 깊은 밤색 글자 */
-}
-
-/* 상단 메뉴(헤더) 영역 변경 */
-header {
-    background-color: #F5EBE6 !important; /* 조금 더 진한 밀크티 색 */
-    border-bottom: 1px solid #D5C3B3;
-}
-
-/* 하단 정보(푸터) 영역 변경 */
-footer {
-    background-color: #F5EBE6 !important;
-    color: #8B7355 !important;
-}
-
-/* 링크 글자 색상 */
-a {
-    color: #A67C52 !important;
-}
   font-size: 1em;
 }
 small {
@@ -7293,3 +7271,25 @@ pre {
 /*! TACHYONS v4.12.0 | http://tachyons.io */
 /*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */
 /*# sourceMappingURL=main.css.map */
+/* 블로그 전체 배경을 밝은 베이지/갈색 톤으로 변경 */
+body {
+    background-color: #FDFBF7 !important; /* 부드러운 크림 베이지 */
+    color: #4A3525 !important;            /* 깊은 밤색 글자 */
+}
+
+/* 상단 메뉴(헤더) 영역 변경 */
+header {
+    background-color: #F5EBE6 !important; /* 조금 더 진한 밀크티 색 */
+    border-bottom: 1px solid #D5C3B3;
+}
+
+/* 하단 정보(푸터) 영역 변경 */
+footer {
+    background-color: #F5EBE6 !important;
+    color: #8B7355 !important;
+}
+
+/* 링크 글자 색상 */
+a {
+    color: #A67C52 !important;
+}
